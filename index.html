@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blog- Front-End Development</title>
+    <meta http-equiv="X-UA-Compatible" content=“IE=edge”>
+    <meta name="viewport" content="width=device-width, initial-scale=1">  
+    <meta charset="utf-8">
+
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Henny+Penny|Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">  
+</head>
+
+<body id="top">
+
+    <!-- Header -->
+    <header>           
+        <h2><a href="#top" class="topTitle">Claudia Asavinei</a></h2>
+        <nav>
+                <li><a href="#top">Top</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#stuffArea">Stuff</a></li>
+                <li><a href="#read">Read</a></li>
+                <li><a href="#articles">Articles</a></li>
+        </nav>
+    </header>
+
+    <section id="hero" class="hero">
+    <div class="background-image" style="background-image: url('images/img1.jpg')"></div>
+        <h1>Blog page</h1>
+        <h3>by Claudia Asavinei<br>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="about">
+    <img src="images/img2.jpg" alt="photo" title="photo" class="round">
+        <h3>About</h3>
+            <p>The internet is a global network of computers that works much like the postal system, only at sub-second speeds. 
+                Just as the postal service enables people to send one another envelopes containing messages, the internet enables 
+                computers to send one another small packets of digital data.</p>
+            <p>Front-end web development is the practice of producing HTML, CSS and usually JavaScript for a website or Web Application
+                so that a user can see and interact with them directly. The challenge associated with front-end development is that
+                the tools and techniques used to create the front end of a website change constantly and so the developer needs to 
+                constantly be aware of how the field is developing.</p>
+
+        <ul class="grid">
+            <li>
+                <img src="images/img3.jpg" title="photo" alt="photo" class="round">
+                <h4>Hyper Text Markup Language (HTML)</h4>
+                <p>Hyper Text Markup Language (HTML) is the backbone of any website development process, without which a web page doesn't exist. 
+                    Hypertext means that text has links, termed hyperlinks, embedded in it. When a user clicks on a word or a phrase that has 
+                    a hyperlink, it will bring another web-page. A markup language indicates text can be turned into images, tables, 
+                    links, and other representations. It is the HTML code that provides an overall framework of how the site will look. 
+                    HTML was developed by Tim Burners-Lee. The latest version of HTML is called HTML5 and was published on October 28, 2014 by 
+                    the W3 recommendation. This version contains new and efficient ways of handling elements such as video and audio files.
+                    It is very useful in creating web pages.</p>
+            </li>
+            <li>
+            <img src="images/img4.jpg" title="photo" alt="photo" class="round">
+                <h4>Cascading Style Sheets (CSS)</h4>
+                <p>Cascading Style Sheets (CSS) controls the presentation aspect of the site and allows your site to have its own unique look. 
+                    It does this by maintaining style sheets which sit on top of other style rules and are triggered based on other inputs,
+                    such as device screen size and resolution.</p>
+            </li>
+            <li>
+            <img src="images/img5.jpg" title="photo" alt="photo" class="round">
+                <h4>JavaScript</h4>
+                <p>JavaScript is an event-based imperative programming language (as opposed to HTML's declarative language model) that is used to
+                    transform a static HTML page into a dynamic interface. JavaScript code can use the Document Object Model (DOM), 
+                    provided by the HTML standard, to manipulate a web page in response to events, like user input.
+                    Using a technique called AJAX, JavaScript code can also actively retrieve content from the web 
+                    (independent of the original HTML page retrieval), and also react to server-side events as well, adding a truly dynamic nature 
+                    to the web page experience.</p>
+            </li>
+        </ul>
+        <hr>
+    </section>
+
+    <!-- Stuff area -->
+    <section id="stuffArea" class="stuff">
+        
+        <h3>Stuff by Claudia</h3>
+        <!-- <ul class="grid">
+            <li class="small" style="background-image: url(images/img7.jpg)" alt=""></li>
+            <li class="large" style="background-image: url(images/img8.jpg)" alt=""></li>
+            <li class="small" style="background-image: url(images/img9.jpg)" alt=""></li>
+            <li class="large" style="background-image: url(images/img10.jpg)" alt=""></li>
+        </ul> -->
+
+        <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                  <div class="numbertext">1 / 5</div>
+                  <img src="images/img13.jpg" style="width:100%">
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext">2 / 5</div>
+                  <img src="images/img14.jpg" style="width:100%">
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext">3 / 5</div>
+                  <img src="images/img15.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides fade">
+                        <div class="numbertext">4 / 5</div>
+                        <img src="images/img16.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">5 / 5</div>
+                    <img src="images/img17.jpg" style="width:100%">
+                </div>
+                
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>                
+        </div>
+                <br>
+                
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+            <span class="dot" onclick="currentSlide(4)"></span> 
+            <span class="dot" onclick="currentSlide(5)"></span> 
+        </div>
+        <hr>
+    </section>
+
+    <!-- Read -->
+    <section id="read" class="art1">
+    <img src="images/img11.jpg" alt="photo" title="photo" class="round">
+        <h3>13 Noteworthy Points from Google’s JavaScript Style Guide<br>
+            <span class="smallerheadline">Daniel Simmons <em>Web developer, JavaScript enthusiast, boxing fan</em></span><br>
+            <span class="smallerheadline">source: <a href="https://medium.com" target="_blank"/>Medium</span>
+        </h3>
+        <p>For anyone who isn’t already familiar with it, Google puts out a style guide for writing JavaScript that lays out (what Google believes 
+            to be) the best stylistic practices for writing clean, understandable code.</p>
+        <p> These are not hard and fast rules for writing valid JavaScript, only proscriptions for maintaining consistent and appealing style 
+            choices throughout your source files. This is particularly interesting for JavaScript, which is a flexible and forgiving language that allows for a wide variety of stylistic choices.
+            Google and Airbnb have two of the most popular style guides out there. I’d definitely recommend you check out both of them if you
+            spend much time writing JS.</p>             
+        <p>The following are thirteen of what I think are the most interesting and relevant rules from Google’s JS Style Guide.               
+            They deal with everything from hotly contested issues (tabs versus spaces, and the controversial issue of how semicolons should be used),
+            to a few more obscure specifications which surprised me. They will definitely change the way I write my JS going forward.               
+            For each rule, I’ll give a summary of the specification, followed by a supporting quote from the style guide that describes the rule 
+            in detail. Where applicable, I’ll also provide an example of the style in practice, and contrast it with code that does not follow the 
+            rule.</p>
+    <a href="https://medium.freecodecamp.org/google-publishes-a-javascript-style-guide-here-are-some-key-lessons-1810b8ad050b" target="_blank" 
+            class="articleSource">Read more...</a>
+    <hr>
+    </section>
+
+    <!-- Articles -->
+    <section id="articles">
+    <img src="images/img12.jpg" alt="" class="round">
+        <h3>Continue Reading</h3>
+        <ul>
+            <li><a href="https://codeburst.io/the-2018-web-developer-roadmap-826b1b806e8d"> <span class="smallerheadline">The 2018 Web Developer 
+                Roadmap --- An illustrated guide to becoming a Frontend or Backend Developer with links to courses</span></a></li>
+            <li><a href="https://medium.freecodecamp.org/lets-learn-javascript-closures-66feb44f6a44"><span class="smallerheadline">Let’s Learn JavaScript Closures
+                    </span></a></li>
+            <li><a href="https://medium.com/@zellwk/this-in-javascript-d1670bce99f9"><span class="smallerheadline">This in JavaScript
+                </span></a></li>
+            <li><a href="http://javascriptissexy.com/oop-in-javascript-what-you-need-to-know/"><span class="smallerheadline">OOP In JavaScript: 
+                What You NEED to Know</span></a></li>
+        </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+    <ul>
+        <li><a href="https://twitter.com/AsavineiClaudia" target="_blank"><i class="fa fa-twitter-square"></i></a></li>
+        <li><a href="https://www.facebook.com/asavineiclaudia.maria" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/claudia-maria-asavinei/" target="_blank"><i class="fa fa-linkedin -square"></i></a></li>
+        <li><a href="https://github.com/asavineiclaudia" target="_blank"><i class="fa fa-github-square"></i></a></li>
+        <li><a href="https://www.instagram.com/claudiaasavinei/" target="_blank"><i class="fa fa-instagram -square"></i></a></li>       
+    </ul>
+        <p>&copy;<script>document.write(new Date().getFullYear())</script> Claudia</p>
+    </footer>
+
+    <!-- Script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="scriptAnimation.js" ></script>
+    <script type="text/javascript" src="scriptCarousel.js" ></script>
+
+</body>
+</html>
